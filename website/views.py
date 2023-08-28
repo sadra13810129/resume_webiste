@@ -16,8 +16,8 @@ def resume_view(request):
     return render(request,'website/resume.html',context=context)
 
 def project_view(request):
-    context = {"project_link" : ""}
-    return render(request,'website/projects.html',context)
+    context = {"project_link" : "https://github.com/sadra13810129/resume_webiste"}
+    return render(request,'website/projects.html',context=context)
 
 def contact_view(request):
     context = {"Email" : "sadra13810129@gmail.com", "Telegram" : "@OriginalPlaymaker29", "Phone_Number" : "0910-124-5263"}
